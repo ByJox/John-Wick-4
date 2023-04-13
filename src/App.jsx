@@ -1,11 +1,15 @@
-import { ActorCard } from './components/ActorCard'
+import { MovieMain } from './components/MovieMain'
+import {TopCastContainer} from './components/TopCastContainer'
 import './App.css'
+import { BookingButton } from './components/BookingButton'
 
 function App() {
 
   return (
     <div className="App">
-      <ActorCard/>
+      <MovieMain/>
+      <TopCastContainer/>
+      <BookingButton/>
     </div>
   )
 }

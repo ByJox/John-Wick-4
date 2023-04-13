@@ -1,11 +1,12 @@
-import React from 'react'
-import "./ActorCard.css"
+import React from "react";
+import "./ActorCard.css";
 
-export const ActorCard = () => {
+export const ActorCard = (props) => {
+  const actor = props.actor;
   return (
-    <div className='actor-container'>
-     <img src="/static/images/1.jpg" alt="" />
-     <span>Marko Zaror Chidi</span>
+    <div className="actor-container">
+      <img src={actor.imgsrc} alt="" />
+      <span>{actor.name}</span>
     </div>
-  )
-}
+  );
+};
