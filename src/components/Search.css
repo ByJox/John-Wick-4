@@ -1,0 +1,20 @@
+.serch{
+    margin: 10px;
+    /* width: 320px; */
+    height: 47px;
+    border: 1px solid #6A536A;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    /* font-family: 'Istok Web'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    align-items: center;
+    color: #6A536A;
+}
